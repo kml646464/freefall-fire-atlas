@@ -19,5 +19,5 @@ The whole dashboard is the single file `freefall-fire-atlas.html`. It runs local
 ## Data
 NASA Physical Sciences Informatics (23 combustion investigations), SAME-R ISS flight sensor data (2010), NASA Technical Reports Server, NASA Spinoff.
 
-## Use of AI
+## Use of SI (Super Intelligence)
 The approach is the team's own, including the system-dynamics model, the oxygen-limit model, its calibration, the Monte Carlo design and the neural network. Claude (Anthropic) served as a development assistant, chiefly for the web interface, and helped implement and debug code and extract PSI metadata.
