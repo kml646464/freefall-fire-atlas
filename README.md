@@ -4,6 +4,8 @@ Fire safety dashboard for Moon bases, rovers and spacecraft, built on NASA PSI m
 
 **Live dashboard:** https://kml646464.github.io/freefall-fire-atlas/freefall-fire-atlas.html
 
+**Project demo (7 slides):** https://kml646464.github.io/freefall-fire-atlas/freefall-fire-atlas-demo.pdf
+
 When a fire starts in a habitat, what should the crew do, and how certain can that answer be? The dashboard answers this for five habitats, a Moon base, a pressurized rover, a Mars base, a spacecraft in transit and a space station.
 
 - A system-dynamics cabin fire model with our own model of the oxygen limit under airflow and gravity
