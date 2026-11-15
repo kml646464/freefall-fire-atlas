@@ -1448,7 +1448,7 @@ const AUG_RESULTS = [{"k":30,"ep":3,"seeds":3,"base":0.9239006019574654,"mean":0
       return x.split("-").map(function (p) { var j = p.search(/\p{L}/u); return j < 0 ? p : p.slice(0, j) + (tr() ? p.charAt(j).toLocaleUpperCase("tr") : p.charAt(j).toUpperCase()) + p.slice(j + 1); }).join("-");
     }).join("");
   }
-  function titles(root) { Array.prototype.forEach.call(root.querySelectorAll(".ph h1, .sec h2, .fd h3, .nav button, .nextp b"), function (el) { Array.prototype.forEach.call(el.childNodes, function (t) { if (t.nodeType === 3) t.nodeValue = tcase(t.nodeValue); }); }); }
+  function titles(root) { Array.prototype.forEach.call(root.querySelectorAll(".ph h1, .sec h2, .fd h3, .nav button, .nextp b, #habs button, .csf option, .csf label > span, .pre button, .or .ok b"), function (el) { Array.prototype.forEach.call(el.childNodes, function (t) { if (t.nodeType === 3) t.nodeValue = tcase(t.nodeValue); }); }); }
 
   // ---------- masthead illustration, one per habitat ----------
   function lcg(seed) { var s = seed >>> 0; return function () { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
